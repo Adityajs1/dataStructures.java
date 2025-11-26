@@ -1,4 +1,4 @@
-package com.aditya;
+
 
 import java.util.Scanner;
 

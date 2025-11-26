@@ -1,4 +1,4 @@
-package com.aditya;
+
 
 public class Primitives {
     public static void main(String[] args) {
