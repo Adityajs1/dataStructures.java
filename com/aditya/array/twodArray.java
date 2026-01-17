@@ -6,7 +6,6 @@ public class twodArray {
         Scanner in = new Scanner(System.in);
         int[][] arr = new int[3][3];
         System.out.println(arr.length); // gives number of rows
-
         //input
 
         for(int row = 0; row < 3; row ++){
