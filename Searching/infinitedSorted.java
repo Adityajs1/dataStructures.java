@@ -8,11 +8,14 @@ public class infinitedSorted {
     }
 
     static int ans(int[] arr, int target){
+        //first find the range
+        //start searching with a box value of 2
         int start = 0;
         int end = 1;
 
         while (end < arr.length && target > arr[end]) {
             int newStart = end + 1;
+            // keep doubling the box size
             end = end + (end - start + 1) * 2;
             start = newStart;
         }
