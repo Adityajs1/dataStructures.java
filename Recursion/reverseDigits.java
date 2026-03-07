@@ -1,13 +1,17 @@
 package Recursion;
 
 public class reverseDigits {
-     static int reverse(int num, int reversed) {
-        if (num == 0) return reversed;
-        return reverse(num / 10, reversed * 10 + num % 10);
+   public static void main(String[] args) {
+        rev1(1234);
+       System.out.println(sum);
+   }
+   static int sum = 0;
+   static void rev1(int n){
+    if(n == 0){
+        return;
     }
-
-    public static void main(String[] args) {
-        int num = 98765;
-        System.out.println(reverse(num, 0));
-    }
+    int rem = n% 10;
+    sum = sum * 10 + rem;
+    rev1(n/10);
+   }
 }
