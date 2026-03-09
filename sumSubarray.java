@@ -15,7 +15,6 @@ public class sumSubarray {
                 sum += arr[end];
             }
             if(end >= k){
-              
                sum -= arr[start];
                sum += arr[end];
                start++;
@@ -23,6 +22,5 @@ public class sumSubarray {
              result.add(sum);
         }
         return result;
-
     }
 }
