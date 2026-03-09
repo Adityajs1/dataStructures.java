@@ -7,7 +7,6 @@ public class patThree {
 
     static void pattern(int n){
         for(int row = 1; row <= n; row++){
-
             // for every column
             for(int col = 1; col <= n-row+1; col++){
                 System.out.print("*");
